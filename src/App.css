@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.app {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.start-quiz,
+.question,
+.results {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+  color: #333;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.option {
+  padding: 1rem;
+  background-color: rgb(175, 211, 175);
+  border: 2px solid #bdc3c7;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option:hover {
+  background-color: #d5dbdb;
+}
+
+.option.selected {
+  background-color: #3498db;
+  color: white;
+  border-color: #2980b9;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #2ecc71;
+  transition: width 0.5s ease-in-out;
+}
+
+.achievement {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.timer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.score-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #27ae60;
+  margin-bottom: 1rem;
+}
+
+.feedback {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.feedback.show {
+  opacity: 1;
+}
+
+.feedback.correct {
+  color: #27ae60;
+}
+
+.feedback.incorrect {
+  color: #e74c3c;
+}
+
