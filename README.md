@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+![QuestionInterface3](https://github.com/user-attachments/assets/1454b34c-7ca5-485f-bcf6-46d5f2ee8ad5)# Ultimate Quiz Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Ultimate Quiz Challenge! This is an interactive web-based quiz application built with React.js. Test your knowledge across various topics with our engaging and dynamic quiz interface.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The Ultimate Quiz Challenge is designed to provide users with an entertaining and educational experience. It features a sleek user interface, timed questions, and immediate feedback, creating an immersive quiz environment.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Dynamic quiz questions fetched from an API (with fallback to local data)
+- Timed questions to add excitement and challenge
+- Immediate feedback on answers
+- Progress tracking throughout the quiz
+- Final score display with achievement levels
+- Responsive design for various screen sizes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+![Start Screen](https://github.com/user-attachments/assets/60e512c6-c1e1-487b-bab5-8bb30a73a4e6)
+*Caption: The welcoming start screen of the Ultimate Quiz Challenge*!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![QuestionInterface1](https://github.com/user-attachments/assets/5ebd4318-f99d-43fc-a52e-93deae9a6c85)
+*Caption: An example of the quiz question interface with timer and progress bar*
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![QuestionInterface2](https://github.com/user-attachments/assets/e1cdfd5d-8af5-498d-a119-61ac4efe79ac)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![Results Screen](https://github.com/user-attachments/assets/0b136e5b-0a76-40a4-a3ae-cfc71c5d4347)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*Caption: The final results screen showing score and achievement*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Video Walkthrough
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Link to video walkthrough](https://drive.google.com/file/d/14gvdIb2F40UsecvwQD2Rya4l0WcZs-bO/view?usp=sharing)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Setup Instructions
 
-## Learn More
+To get the Ultimate Quiz Challenge running on your local machine, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    git clone https://github.com/yourusername/quiz-app.git
+    cd quiz-app
 
-### Code Splitting
+2. Install dependencies:
+   npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Start the development server:
+    npm start
